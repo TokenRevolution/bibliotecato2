@@ -1,0 +1,205 @@
+/* App container */
+.App {
+  background-color: #282c34;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.book-table input{
+  width:25%;
+}
+/* Header */
+.App-header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Google Login Container */
+.google-login-container {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+  background-color: #1e2a38;
+}
+
+/* Google Login Button */
+.login-button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.login-button:hover {
+  background-color: #357ABD;
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.logout-button:hover {
+  background-color: #D32F2F;
+}
+
+/* Input Fields Container */
+.input-fields-container {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+  background-color: #1e2a38;
+}
+
+/* Input Field */
+.input-field {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.input-field::placeholder {
+  color: #61dafb;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.submit-button:hover {
+  background-color: #357ABD;
+}
+
+/* Search Input */
+.search-input {
+  width: 95%;
+      padding: 10px;
+      margin-bottom: 1%;
+      border: 1px solid #61dafb;
+      border-radius: 5px;
+      background-color: #2c3e50;
+      color: white;
+}
+
+/* Table */
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Header */
+.book-table th {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Table Data */
+.book-table td {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  text-align:center;
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin:1%;
+}
+#nominativoStudente, #classe, #data{
+  display:none;
+}
+h6{
+  text-align:center;
+  padding:1%;
+  margin-bottom:2px;
+}
+img {
+  width:15%;
+}
+p{
+  color:#61dafb;
+  font-size:1em;
+  letter-spacing:5px;
+  font-weight:bolder;
+}
+a{
+  text-decoration:none;
+  color:#61dafb;
+}
+
+/* edit Button */
+#modifica {
+  background-color: #61f538;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* save Button */
+#salva {
+  background-color: #3b38f5;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin:0.5%;
+}
+
+.delete-button:hover {
+  background-color: #D32F2F;
+}
+/* Stile per l'header */
+#library-header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#library-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+#library-subtitle {
+    font-size: 18px;
+    margin: 10px 0;
+}
